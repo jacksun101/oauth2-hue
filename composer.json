@@ -1,0 +1,25 @@
+{
+    "name": "jacksun101/oauth2-hue",
+    "description": "Philip Hue Provider for the OAuth 2.0 Client",
+    "keywords": ["provider", "composer", "package", "oauth2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack Sun",
+            "email": "sunhsilu@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.0",
+        "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jacksun101\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
